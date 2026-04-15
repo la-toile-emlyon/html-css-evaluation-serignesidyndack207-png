@@ -2,9 +2,14 @@
 body {
   font-family: "Manrope", sans-serif;
 }
+
 html {
   scroll-behavior: smooth;
 }
+section {
+  scroll-margin-top: 80px; 
+}
+
 h1, h2, h3 {
   font-family: "Cormorant Garamond", serif;
   font-weight: 800;
@@ -49,7 +54,7 @@ body{
   background-color: #D8935C;
 }
 #logo img {
-  height: 50px; 
+  height: 60px; 
   width: auto;  
 }
 #nav-links a {
@@ -153,13 +158,20 @@ body{
 }
 .promesses{
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: column-reverse;
-    width:50% ;
-    height: 50%;
+    gap: 20px;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
     object-fit: cover;
 
 }
+.diviser{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
 #section1 h2{
   display: flex;
   justify-content: center;
@@ -187,14 +199,6 @@ body{
     justify-content: center;
     align-items: flex-start;
     gap: 60px;
-}
-
-
-.promesses {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    width: 300px;
 }
 
 .promesses img {

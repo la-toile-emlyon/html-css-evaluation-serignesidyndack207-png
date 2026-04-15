@@ -1,91 +1,100 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Architecte d'intérieur</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architecte d'intérieur</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
-    <nav>
-      <a href="#" id="logo">
-         <img src="assets/logo.png" alt="logo architecte">
-      </a>
-      <ul id="nav-links">
-         <li>
-            <a href="#section1">Promesses</a>
-         </li>
-         <li>
-            <a href="#section3">Projets</a>
-         </li>
-         <li>
-            <a href="#section2">Prestations</a>
-         </li>
-        
-      </ul>
-      <div class="buttons-container">
-        <a class="button primary" href="#contact">Contact</a>
-    </nav>
-    
-    <header class="hero">
-  <div class="hero-content">
-    <div class="hero-text">
-      <h1>Clémence Rivière Studio</h1>
-      <h3>Révéler le potentiel de chaque espace</h3>
-      
-      <div class="buttons-container">
-        <a class="button primary" href="">Prendre rendez-vous</a>
-        <a class="button secondary" href="">Voir mes réalisations</a>
+
+  <nav>
+    <a href="#" id="logo">
+      <img src="assets/logo archi transparent.png" alt="logo architecte">
+    </a>
+
+    <ul id="nav-links">
+      <li><a href="#section1">Promesses</a></li>
+      <li><a href="#section3">Projets</a></li>
+      <li><a href="#section2">Prestations</a></li>
+    </ul>
+
+    <div class="buttons-container">
+      <a class="button primary" href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+
+      <div class="hero-text">
+        <h1>Clémence Rivière Studio</h1>
+        <h3>Révéler le potentiel de chaque espace</h3>
+
+        <div class="buttons-container">
+          <a class="button primary" href="">Prendre rendez-vous</a>
+          <a class="button secondary" href="#section3">Voir mes réalisations</a>
+        </div>
       </div>
+
+      <div class="hero-image">
+        <img src="assets/couverture.png" alt="">
+      </div>
+
     </div>
+  </header>
 
-    <div class="hero-image">
-      <img src="assets/couverture.png" alt="">
-    </div>
-  </div>
-</header>
+  <main>
 
-    <main>
-        <section id="section1">
-            <h2>Promesses Clients</h2>
-            <h3>Une approche centrée sur vos besoins et votre bien-être</h3>
-            <div class="clients">
-                <div class="promesses"> 
-                    <img src="assets/promesses.png" alt="">
-                    <img src="assets/decoration-interieur.png" alt="">
-                    <img src="assets/renovation.png" alt="">
-                </div>
-                <div class="list">
-                <ul>
-                    <li> Une approche humaine et créative, centrée sur vos usages et vos envies</li>
-                    <li>Des matériaux durables et des fournisseurs locaux privilégiés</li>
-                    <li>Une expertise esthétique alliée à une rigueur technique</li>
-                    <li> Un accompagnement complet, du croquis à la réception du chantier</li>
-                  
-                </ul>
-                <div class="buttons-container">
-        <a class="button primary" href="">En savoir plus</a>
-            </div>
-            </div>
-        </section>
+    <section id="section1">
+      <h2>Promesses Clients</h2>
+      <h3>Une approche centrée sur vos besoins et votre bien-être</h3>
 
+      <div class="clients">
 
-        <section id="section2">
-            <h2>Prestations Proposées</h2>
-            <h3>Nos prestations</h3>
-            <div class="devider">
+        <div class="promesses">
+          <img src="assets/promesses.png" alt="">
+          <div class="diviser">
+            <img src="assets/decoration-interieur.png" alt="">
+            <img src="assets/renovation.png" alt="">
+          </div>
+        </div>
+
+        <div class="list">
+          <ul>
+            <li>Une approche humaine et créative, centrée sur vos usages et vos envies</li>
+            <li>Des matériaux durables et des fournisseurs locaux privilégiés</li>
+            <li>Une expertise esthétique alliée à une rigueur technique</li>
+            <li>Un accompagnement complet, du croquis à la réception du chantier</li>
+          </ul>
+
+          <div class="buttons-container">
+            <a class="button primary" href="">En savoir plus</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="section2">
+      <h2>Prestations Proposées</h2>
+      <h3>Nos prestations</h3>
+
+      <div class="devider">
+
         <article class="art">
           <img src="assets/renovation.png" alt="produit">
           <div class="information">
             <div class="meta">
               <h3 class="title">Rénovation d'appartements</h3>
             </div>
-            <p class="description"> Repenser la circulation, les volumes et la lumière pour créer des intérieurs
-élégants, fonctionnels et chaleureux.
+            <p class="description">
+              Repenser la circulation, les volumes et la lumière pour créer des intérieurs
+              élégants, fonctionnels et chaleureux.
             </p>
             <a class="button primary" href="">Découvrir</a>
           </div>
@@ -95,169 +104,171 @@
           <img src="assets/amenagement.png" alt="produit">
           <div class="information">
             <div class="meta">
-              <h3 class="title"> Aménagement sur mesure</h3>
+              <h3 class="title">Aménagement sur mesure</h3>
             </div>
-            <p class="description"> Conception de mobilier intégré et d'espaces adaptés à vos besoins :
-bibliothèques, rangements, cuisines, bureaux...
+            <p class="description">
+              Conception de mobilier intégré et d'espaces adaptés à vos besoins :
+              bibliothèques, rangements, cuisines, bureaux...
             </p>
             <a class="button primary" href="">Découvrir</a>
           </div>
         </article>
-         <article class="art">
+
+        <article class="art">
           <img src="assets/decoration-interieur.png" alt="produit">
           <div class="information">
             <div class="meta">
-              <h3 class="title"> Décoration intérieure</h3>
+              <h3 class="title">Décoration intérieure</h3>
             </div>
-            <p class="description"> Sélection de matériaux, textures et couleurs pour harmoniser votre intérieur et lui
-donner une identité unique.
+            <p class="description">
+              Sélection de matériaux, textures et couleurs pour harmoniser votre intérieur
+              et lui donner une identité unique.
             </p>
             <a class="button primary" href="">Découvrir</a>
           </div>
-          </div>
         </article>
 
-         </section>
+      </div>
+    </section>
 
     <section id="section3">
-    <h2>Projets</h2>
+      <h2>Projets</h2>
 
-    <div class="information">
+      <div class="information">
         <img src="assets/im3rd-media-FJZtZldA-uE-unsplash.jpg" alt="">
 
         <div class="meta">
-            <h3 class="title">Appartement Haussmannien – Lyon 6e</h3>
-            <p class="description">
-                Rénovation complète d’un appartement de 120 m² : ouverture des
-                espaces, mise en valeur des moulures et création d’une cuisine
-                contemporaine contrastée.
-            </p>
+          <h3 class="title">Appartement Haussmannien – Lyon 6e</h3>
+          <p class="description">
+            Rénovation complète d’un appartement de 120 m² : ouverture des
+            espaces, mise en valeur des moulures et création d’une cuisine
+            contemporaine contrastée.
+          </p>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="section4">
-    <div class="information">
+    <section id="section4">
+      <div class="information">
 
         <div class="meta">
-            <h3 class="title">Décoration intérieur</h3>
-            <p class="description">
-                Commentaire: J’adore la nouvelle ambiance de mon salon : couleurs apaisantes, lumière
-retravaillée, et des matières nobles. Je recommande à 100 %.
-
-            </p>
+          <h3 class="title">Décoration intérieur</h3>
+          <p class="description">
+            Commentaire: J’adore la nouvelle ambiance de mon salon : couleurs apaisantes,
+            lumière retravaillée, et des matières nobles. Je recommande à 100 %.
+          </p>
         </div>
 
         <img src="assets/jean-luc-benazet-oOvzE2L-n1A-unsplash.jpg" alt="">
+      </div>
+    </section>
 
-    </div>
-</section>
-<section id="section5">
-
-    <div class="information">
+    <section id="section5">
+      <div class="information">
         <img src="assets/hakim-menikh-lcoAS3tYlx4-unsplash.jpg" alt="">
 
         <div class="meta">
-            <h3 class="title">Appartement Haussmannien – Lyon 6e</h3>
-            <p class="description">
-                Rénovation complète d’un appartement de 120 m² : ouverture des
-                espaces, mise en valeur des moulures et création d’une cuisine
-                contemporaine contrastée.
-            </p>
+          <h3 class="title">Appartement Haussmannien – Lyon 6e</h3>
+          <p class="description">
+            Rénovation complète d’un appartement de 120 m² : ouverture des
+            espaces, mise en valeur des moulures et création d’une cuisine
+            contemporaine contrastée.
+          </p>
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
-<section id="section6">
-    <div class="information">
+    <section id="section6">
+      <div class="information">
 
         <div class="meta">
-            <h3 class="title">Boutique artisanale – Croix-Rousse</h3>
-            <p class="description">
-                Transformation d’un ancien atelier en boutique lumineuse : jeu de
-                textures entre béton ciré, bois brut et verrières d’atelier.
-            </p>
+          <h3 class="title">Boutique artisanale – Croix-Rousse</h3>
+          <p class="description">
+            Transformation d’un ancien atelier en boutique lumineuse : jeu de
+            textures entre béton ciré, bois brut et verrières d’atelier.
+          </p>
         </div>
 
         <img src="assets/tem-rysh-F6-U5fGAOik-unsplash.jpg" alt="">
-
-    </div>
- </section>
-
- 
-<section class="testimonials">
-  <h2>Témoignages</h2>
-
-  <div class="testimonial-container">
-    
-    <button class="nav left">&#8592;</button>
-
-    <div class="cards">
-      
-      <div class="card">
-        <p>
-          Lorem ipsum dolor sit amet consectetur. Condimentum eget vitae ligula sed urna sit sagittis interdum a.
-        </p>
-        <div class="user">
-          <img src="https://i.pravatar.cc/50" alt="user">
-          <div>
-            <strong>Jean Paul</strong>
-            <span>Customer</span>
-          </div>
-        </div>
       </div>
+    </section>
 
-      <div class="card">
-        <p>
-          Lorem ipsum dolor sit amet consectetur. Condimentum eget vitae ligula sed urna sit sagittis interdum a.
-        </p>
-        <div class="user">
-          <img src="https://i.pravatar.cc/51" alt="user">
-          <div>
-            <strong>Jacqueline Wright</strong>
-            <span>Customer</span>
+    <section class="testimonials">
+      <h2>Témoignages</h2>
+
+      <div class="testimonial-container">
+
+        <button class="nav left">&#8592;</button>
+
+        <div class="cards">
+
+          <div class="card">
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Condimentum eget vitae ligula sed urna sit sagittis interdum a.
+            </p>
+            <div class="user">
+              <img src="https://i.pravatar.cc/50" alt="user">
+              <div>
+                <strong>Jacqueline Wright</strong>
+                <span>Customer</span>
+              </div>
+            </div>
           </div>
+
+          <div class="card">
+            <p>
+              Lorem ipsum dolor sit amet consectetur. Condimentum eget vitae ligula sed urna sit sagittis interdum a.
+            </p>
+            <div class="user">
+              <img src="https://i.pravatar.cc/51" alt="user">
+              <div>
+                <strong>Jacqueline Wright</strong>
+                <span>Customer</span>
+              </div>
+            </div>
+          </div>
+
         </div>
+
+        <button class="nav right">&#8594;</button>
+
       </div>
+    </section>
 
-    </div>
+  </main>
 
-    <button class="nav right">&#8594;</button>
+  <footer>
 
-  </div>
-</section>
- </main>
- <footer>
-<section>
-    <h2>Prêts à travailler ensemble ?</h2>
-    <p>
-      Une idée, un projet, une envie de collaboration ?<br>
-      Contactez-nous, nous serons ravis d’en discuter et de voir comment avancer ensemble.<br>
-      Laissez votre contact téléphonique et je vous rappellerai.
-    </p>
+    <section>
+      <h2>Prêts à travailler ensemble ?</h2>
+      <p>
+        Une idée, un projet, une envie de collaboration ?<br>
+        Contactez-nous, nous serons ravis d’en discuter et de voir comment avancer ensemble.<br>
+        Laissez votre contact téléphonique et je vous rappellerai.
+      </p>
 
-    <p>
       <div class="socials">
-    <a href="https://discord.com" target="_blank"><i class="fa-brands fa-discord"></i></a>
-    <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
-    <a href="https://dribbble.com" target="_blank"><i class="fa-brands fa-dribbble"></i></a>
-    <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-    <a href="https://behance.net" target="_blank"><i class="fa-brands fa-behance"></i></a>
-  </div>
-    </p>
-  </section>
+        <a href="https://discord.com" target="_blank"><i class="fa-brands fa-discord"></i></a>
+        <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+        <a href="https://dribbble.com" target="_blank"><i class="fa-brands fa-dribbble"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://behance.net" target="_blank"><i class="fa-brands fa-behance"></i></a>
+      </div>
+    </section>
 
-  <section id="contact">
-    <form>
-      <p><input type="text" name="nom" placeholder="Nom"></p>
-      <p><input type="text" name="telephone" placeholder="Téléphone"></p>
-      <p><input type="email" name="email" placeholder="email"></p>
-      <p><textarea name="message" placeholder="message"></textarea></p>
-      <p><button type="submit">Envoyer</button></p>
-    </form>
+    <section id="contact">
+      <form>
+        <p><input type="text" name="nom" placeholder="Nom"></p>
+        <p><input type="text" name="telephone" placeholder="Téléphone"></p>
+        <p><input type="email" name="email" placeholder="email"></p>
+        <p><textarea name="message" placeholder="message"></textarea></p>
+        <p><button type="submit">Envoyer</button></p>
+      </form>
+    </section>
 
-  </section>
-  <a href="#top" class="back-to-top">↑ Retour en haut</a>
-</footer>
+    <a href="#top" class="back-to-top">↑ Retour en haut</a>
+
+  </footer>
+
 </body>
 </html>
