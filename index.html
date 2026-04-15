@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,22 +13,22 @@
 <body>
     <nav>
       <a href="#" id="logo">
-         <img src="assests/logo.png" alt="logo architecte">
+         <img src="assets/logo.png" alt="logo architecte">
       </a>
       <ul id="nav-links">
          <li>
-            <a href="#">Promesses</a>
+            <a href="#section1">Promesses</a>
          </li>
          <li>
-            <a href="#">Projets</a>
+            <a href="#section3">Projets</a>
          </li>
          <li>
-            <a href="#">Prestations</a>
+            <a href="#section2">Prestations</a>
          </li>
         
       </ul>
       <div class="buttons-container">
-        <a class="button primary" href="">Contact</a>
+        <a class="button primary" href="#contact">Contact</a>
     </nav>
     
     <header class="hero">
@@ -44,7 +44,7 @@
     </div>
 
     <div class="hero-image">
-      <img src="assests/couverture.png" alt="">
+      <img src="assets/couverture.png" alt="">
     </div>
   </div>
 </header>
@@ -55,9 +55,9 @@
             <h3>Une approche centrée sur vos besoins et votre bien-être</h3>
             <div class="clients">
                 <div class="promesses"> 
-                    <img src="assests/promesses.png" alt="">
-                    <img src="assests/decoration-interieur.png" alt="">
-                    <img src="assests/renovation.png" alt="">
+                    <img src="assets/promesses.png" alt="">
+                    <img src="assets/decoration-interieur.png" alt="">
+                    <img src="assets/renovation.png" alt="">
                 </div>
                 <div class="list">
                 <ul>
@@ -79,7 +79,7 @@
             <h3>Nos prestations</h3>
             <div class="devider">
         <article class="art">
-          <img src="assests/renovation.png" alt="produit">
+          <img src="assets/renovation.png" alt="produit">
           <div class="information">
             <div class="meta">
               <h3 class="title">Rénovation d'appartements</h3>
@@ -92,7 +92,7 @@
         </article>
 
         <article class="art">
-          <img src="assests/amenagement.png" alt="produit">
+          <img src="assets/amenagement.png" alt="produit">
           <div class="information">
             <div class="meta">
               <h3 class="title"> Aménagement sur mesure</h3>
@@ -104,7 +104,7 @@ bibliothèques, rangements, cuisines, bureaux...
           </div>
         </article>
          <article class="art">
-          <img src="assests/decoration-interieur.png" alt="produit">
+          <img src="assets/decoration-interieur.png" alt="produit">
           <div class="information">
             <div class="meta">
               <h3 class="title"> Décoration intérieure</h3>
@@ -123,7 +123,7 @@ donner une identité unique.
     <h2>Projets</h2>
 
     <div class="information">
-        <img src="assests/im3rd-media-FJZtZldA-uE-unsplash.jpg" alt="">
+        <img src="assets/im3rd-media-FJZtZldA-uE-unsplash.jpg" alt="">
 
         <div class="meta">
             <h3 class="title">Appartement Haussmannien – Lyon 6e</h3>
@@ -148,14 +148,14 @@ retravaillée, et des matières nobles. Je recommande à 100 %.
             </p>
         </div>
 
-        <img src="assests/jean-luc-benazet-oOvzE2L-n1A-unsplash.jpg" alt="">
+        <img src="assets/jean-luc-benazet-oOvzE2L-n1A-unsplash.jpg" alt="">
 
     </div>
 </section>
 <section id="section5">
 
     <div class="information">
-        <img src="assests/hakim-menikh-lcoAS3tYlx4-unsplash.jpg" alt="">
+        <img src="assets/hakim-menikh-lcoAS3tYlx4-unsplash.jpg" alt="">
 
         <div class="meta">
             <h3 class="title">Appartement Haussmannien – Lyon 6e</h3>
@@ -179,14 +179,56 @@ retravaillée, et des matières nobles. Je recommande à 100 %.
             </p>
         </div>
 
-        <img src="assests/tem-rysh-F6-U5fGAOik-unsplash.jpg" alt="">
+        <img src="assets/tem-rysh-F6-U5fGAOik-unsplash.jpg" alt="">
 
     </div>
+ </section>
+
+ 
+<section class="testimonials">
+  <h2>Témoignages</h2>
+
+  <div class="testimonial-container">
+    
+    <button class="nav left">&#8592;</button>
+
+    <div class="cards">
+      
+      <div class="card">
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Condimentum eget vitae ligula sed urna sit sagittis interdum a.
+        </p>
+        <div class="user">
+          <img src="https://i.pravatar.cc/50" alt="user">
+          <div>
+            <strong>Jean Paul</strong>
+            <span>Customer</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <p>
+          Lorem ipsum dolor sit amet consectetur. Condimentum eget vitae ligula sed urna sit sagittis interdum a.
+        </p>
+        <div class="user">
+          <img src="https://i.pravatar.cc/51" alt="user">
+          <div>
+            <strong>Jacqueline Wright</strong>
+            <span>Customer</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="nav right">&#8594;</button>
+
+  </div>
 </section>
-  </main>
-    <footer>
-  
-  <section>
+ </main>
+ <footer>
+<section>
     <h2>Prêts à travailler ensemble ?</h2>
     <p>
       Une idée, un projet, une envie de collaboration ?<br>
@@ -205,7 +247,7 @@ retravaillée, et des matières nobles. Je recommande à 100 %.
     </p>
   </section>
 
-  <section>
+  <section id="contact">
     <form>
       <p><input type="text" name="nom" placeholder="Nom"></p>
       <p><input type="text" name="telephone" placeholder="Téléphone"></p>
@@ -215,6 +257,7 @@ retravaillée, et des matières nobles. Je recommande à 100 %.
     </form>
 
   </section>
+  <a href="#top" class="back-to-top">↑ Retour en haut</a>
 </footer>
 </body>
 </html>
